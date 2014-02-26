@@ -1,0 +1,15 @@
+[submodule "plugins/vim-colorscheme-switcher"]
+	path = plugins/vim-colorscheme-switcher
+	url = https://github.com/xolox/vim-colorscheme-switcher.git
+[submodule "plugins/vim-misc"]
+	path = plugins/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "plugins/vim-colors-solarized"]
+	path = plugins/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "plugins/dayle-colour-schemes/colour-schemes"]
+	path = plugins/dayle-colour-schemes/colour-schemes
+	url = https://github.com/daylerees/colour-schemes.git
+[submodule "plugins/vim-pathogen"]
+	path = plugins/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
