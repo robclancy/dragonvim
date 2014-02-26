@@ -6,8 +6,6 @@ all:
 	[[ -d ~/.vim/colors ]] || mkdir ~/.vim/colors
 	[[ -f ~/.vimrc ]] || touch ~/.vimrc
 
-	[[ -d ~/.vim/colors/colour-schemes ]] || ln -s $(PWD)/colours/colour-schemes ~/.vim/colors/
-
 	echo -e $(rawwr) > _tmp
 	echo "" >> _tmp
 	cat ~/.vimrc >> _tmp

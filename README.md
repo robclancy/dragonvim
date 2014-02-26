@@ -8,7 +8,7 @@ Base settings have been stolen from Jeff and Jesse. Colour Schemes provided incl
 ## Installation
 Clone the repository, cd into it and run `make`.
 Or copy paste this.
-`[[ -d ~/.vim ]] || mkdir ~/.vim & git clone https://github.com/robclancy/dragonvim.git ~/.vim/dragonvim & cd ~/.vim/dragonvim & make`
+`[[ -d ~/.vim ]] || mkdir ~/.vim & git clone https://github.com/robclancy/dragonvim.git --recursive ~/.vim/dragonvim & cd ~/.vim/dragonvim & make`
 
 ## Uninstall
 Why would you want to remove dragons? Ever. Anyway if you really want to just look in `~/.bashrc` and you will see what to remove.
