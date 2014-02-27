@@ -4,6 +4,9 @@ rawwr="\" Initiate DragonVim\nsource $(PWD)/plugins/vim-pathogen/autoload/pathog
 all:
 	[[ -d ~/.vim ]] || mkdir ~/.vim
 	[[ -d ~/.vim/colors ]] || mkdir ~/.vim/colors
+	[[ -d ~/.vim/tmp ]] || mkdir ~/.vim/tmp
+	[[ -d ~/.vim/tmp/backup ]] || mkdir ~/.vim/tmp/backup
+	[[ -d ~/.vim/tmp/swap ]] || mkdir ~/.vim/tmp/swap
 	[[ -f ~/.vimrc ]] || touch ~/.vimrc
 
 	echo -e $(rawwr) > _tmp
