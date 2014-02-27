@@ -87,7 +87,7 @@ inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
 inoremap <expr> <M-,> pumvisible() ? '<C-n>' :
   \ '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 
-" Backups
+"Backups
 set backupdir=~/.vim/tmp/backup// " backups
 set directory=~/.vim/tmp/swap// " swap files
 set backup " enable backup
@@ -100,5 +100,9 @@ autocmd FileType less setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType sass setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType scss setlocal shiftwidth=2 tabstop=2 expandtab
 
-" Other stuff
+"Other stuff
 set mouse=a
+
+"Plugin settings
+source <sfile>_plugins
+source <sfile>_binds
