@@ -37,9 +37,14 @@ set number
 
 "Load in colour schemes
 set background=dark
+set t_Co=16
 colorscheme solarized
-set t_Co=256
-let g:solarized_termcolors=256
+
+"To toggle the color scheme between dark and light with F5
+call togglebg#map("<F5>")
+
+"Highlight the current line
+set cursorline
 
 "Always show the status line
 set laststatus=2
