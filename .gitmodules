@@ -37,3 +37,6 @@
 [submodule "plugins/tmuxline.vim"]
 	path = plugins/tmuxline.vim
 	url = https://github.com/edkolev/tmuxline.vim.git
+[submodule "plugins/vim-slim"]
+	path = plugins/vim-slim
+	url = https://github.com/slim-template/vim-slim.git

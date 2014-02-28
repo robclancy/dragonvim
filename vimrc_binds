@@ -5,17 +5,20 @@ vmap <s-tab> <gv                    " Shift-Tab remove indent
 nmap <leader>w :w!<cr>              " Fast save
 nmap <leader>q :q!<cr>              " Fast close
 imap jj <esc>                       " Easy escaping to normal model
-noremap <C-Tab> :tabnext<CR>        " Go to next tab with ctrl-tab
-noremap <C-S-Tab> :tabprev<CR>      " Go to previous tab with ctrl-shift-tab
-map <C-1> 1gt                       " Tab 1
-map <C-2> 2gt                       " Tab 2
-map <C-3> 3gt                       " Tab 3
-map <C-4> 4gt                       " Tab 4
-map <C-5> 5gt                       " Tab 5
-map <C-6> 6gt                       " Tab 6
-map <C-7> 7gt                       " Tab 7
-map <C-8> 8gt                       " Tab 8
-map <C-9> 9gt                       " Tab 9
+nnoremap <Leader>ls :ls<CR>         " List buffers
+nnoremap <Leader>b :bp<CR>          " Previous buffer
+nnoremap <Leader>n :bn<CR>          " Next buffer
+nnoremap <Leader>l :e#<CR>          " Last used buffer
+nnoremap <Leader>1 :1b<CR>          " 1st Buffer
+nnoremap <Leader>2 :2b<CR>          " 2nd Buffer
+nnoremap <Leader>3 :3b<CR>          " 3rd Buffer
+nnoremap <Leader>4 :4b<CR>          " 4th Buffer
+nnoremap <Leader>5 :5b<CR>          " 5th Buffer
+nnoremap <Leader>6 :6b<CR>          " 6th Buffer
+nnoremap <Leader>7 :7b<CR>          " 7th Buffer
+nnoremap <Leader>8 :8b<CR>          " 8th Buffer
+nnoremap <Leader>9 :9b<CR>          " 9th Buffer
+nnoremap <Leader>0 :10b<CR>         " 10th Buffer
 
 "NERDTreeTabs
 map \ :NERDTreeTabsToggle<CR>       " File tree browser toggle
