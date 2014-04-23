@@ -92,6 +92,9 @@ set backupdir=~/.vim/tmp/backup// " backups
 set directory=~/.vim/tmp/swap// " swap files
 set backup " enable backup
 
+"Just highlight markdown as html
+au BufRead,BufNewFile *.md set filetype=html
+
 "Custom indent settings
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType slim setlocal shiftwidth=2 tabstop=2 expandtab
